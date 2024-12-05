@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>健行App 名單蒐集頁</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333333;
+            text-align: center;
+        }
+        .sub-heading {
+            color: #777777;
+            text-align: center;
+            font-size: 1.1em;
+        }
+        .bullets {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .bullets li {
+            margin: 10px 0;
+            font-size: 1.1em;
+            color: #333333;
+        }
+        .testimonial {
+            background-color: #f9f9f9;
+            border-left: 4px solid #66cc66;
+            padding: 10px 15px;
+            margin: 10px 0;
+        }
+        .cta {
+            background-color: #66cc66;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .form {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        .form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .form button {
+            background-color: #66cc66;
+            color: white;
+            padding: 12px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+        }
+        .form button:hover {
+            background-color: #55bb55;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>只需1分鐘，輕鬆註冊，讓我們一起開啟屬於您的旅行故事。</h1>
+    <p class="sub-heading">沒有繁瑣的行程安排，只有輕鬆愉快的旅行時光。健行App，讓您的旅程更自在。</p>
+
+    <ul class="bullets">
+        <li>老街巡禮：一起走進那些熟悉又溫暖的老街，重拾往日回憶。</li>
+        <li>在地美食：品嚐傳承的味道，讓每一餐都是家鄉的味覺記憶。</li>
+        <li>貼心陪伴：我們會細心照顧您的每一步，讓旅程變得安心又愉快。</li>
+    </ul>
+
+    <div class="testimonial">
+        <p>「這次的老街之行，讓我想起了年輕時和朋友們一起走過的路，非常懷念。」— 李阿嬤，72歲</p>
+        <p>「每一口美食都讓我感受到家的味道，謝謝健行為我們準備這麼好的行程。」— 張伯伯，68歲</p>
+        <p>「健行的導遊像家人一樣，從出發到回家，無微不至的照顧讓我感到溫暖。」— 林媽媽，75歲</p>
+    </div>
+
+    <h2>立即加入我們，為您準備了這些小禮物：</h2>
+    <ul class="bullets">
+        <li>免費下載「銀髮健康旅遊指南」，讓您的每次出遊都更輕鬆。</li>
+        <li>加入會員即可享10%折扣，為您的下一次旅行省下更多。</li>
+        <li>每週精選推薦您喜愛的景點，讓您不錯過每一個美好的旅行目的地。</li>
+    </ul>
+
+    <div class="cta">點擊這裡，馬上註冊健行會員，讓我們陪您輕鬆開啟每一次的美好旅程！</div>
+
+    <div class="form">
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="姓名" required>
+            <input type="text" name="email_or_address" placeholder="電子郵件/住家地址" required>
+            <input type="text" name="phone" placeholder="聯絡電話" required>
+            <button type="submit">立即註冊</button>
+        </form>
+    </div>
+
+    <p class="sub-heading">您的隱私對我們非常重要，我們會妥善保護您的個人資訊，請安心註冊。</p>
+</div>
+
+</body>
+</html>
