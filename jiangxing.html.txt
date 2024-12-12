@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>見證文案</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+        }
+        .testimonial {
+            margin-bottom: 20px;
+        }
+        .testimonial h3 {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .testimonial p {
+            font-size: 1em;
+            margin: 0;
+        }
+        .signature {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>見證文案</h1>
+    
+    <div class="testimonial">
+        <h3>1. 退休人員</h3>
+        <p>「退休後，我一直希望能多看看外面的世界，但擔心體力跟不上，行程又太麻煩。有了健行APP，一切都變得簡單。我可以選擇輕鬆的行程，還能跟同伴一起出遊，每趟旅程都充滿了快樂與活力！」</p>
+        <p class="signature">—— 林伯伯，65歲，退休教師</p>
+    </div>
+
+    <div class="testimonial">
+        <h3>2. 想出遊卻覺得麻煩的人</h3>
+        <p>「過去每次想旅行，光是查資料、比價就覺得頭大。健行APP幫我省下了這些煩惱，直接推薦符合我需求的行程，點幾下就能安排好，出發變得輕鬆又安心！」</p>
+        <p class="signature">—— 張小姐，55歲，家庭主婦</p>
+    </div>
+
+    <div class="testimonial">
+        <h3>3. 捨不得花錢去旅遊的農村阿公阿嬤</h3>
+        <p>「以前總覺得旅遊太花錢，心肝沒那麼捨得花。但健行APP的團體行程價格很實在，還能用優惠券折扣，真的是又便宜又划算。這次頭一擺去台中，還有參觀咱農村的文化，真的是很值得咧！」</p>
+        <p class="signature">—— 黃阿嬤，70歲，退休農夫</p>
+    </div>
+
+    <div class="testimonial">
+        <h3>4. 想利用健行平台，找到整合的行程的人</h3>
+        <p>「我很喜歡健行APP的客製化行程功能，依照我的興趣推薦景點，還整合了交通和住宿資訊。再也不用花時間東找西找，真的太方便了！」</p>
+        <p class="signature">—— 陳先生，60歲，科技公司退休主管</p>
+    </div>
+
+    <div class="testimonial">
+        <h3>5. 在地名人推薦</h3>
+        <p>「身為地方的文化導覽員，我推薦健行APP給每一位長者。它不僅方便操作，還鼓勵更多人走出家門，探索我們在地的美好，讓旅行充滿溫度與回憶。」</p>
+        <p class="signature">—— 李老師，台南文化導覽員</p>
+    </div>
+
+</body>
+</html>
