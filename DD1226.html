@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>銀髮旅行CRM系統</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FDF2E9; /* 淡粉色背景 */
+            color: #5B3A29; /* 深棕色文字 */
+            margin: 0;
+            padding: 0;
+            font-size: 18px; /* 放大字體 */
+        }
+
+        header {
+            background-color: #FFB6C1; /* 溫馨粉色 */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1, h2 {
+            margin: 0;
+            padding: 10px 0;
+            font-size: 24px; /* 放大標題字體 */
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 30px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px; /* 放大導航字體 */
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 30px;
+        }
+
+        section {
+            background-color: #FFFAF1; /* 淡米色 */
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        form label {
+            font-weight: bold;
+            font-size: 20px; /* 放大標籤字體 */
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #FFDAB9; /* 淡橙色邊框 */
+            border-radius: 6px;
+            font-size: 18px; /* 放大輸入框字體 */
+        }
+
+        button {
+            background-color: #FF6347; /* 番茄紅 */
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 6px;
+            font-size: 20px; /* 放大按鈕字體 */
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #FF4500; /* 深番茄紅 */
+        }
+
+        footer {
+            background-color: #FF7F50; /* 珊瑚橙 */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 20px; /* 放大頁腳字體 */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            font-size: 18px; /* 放大表格字體 */
+            border-bottom: 1px solid #FFDAB9;
+        }
+
+        th {
+            background-color: #FFDAB9; /* 淡橙色 */
+        }
+
+        @media (max-width: 768px) {
+            header, footer {
+                padding: 15px;
+            }
+
+            h1, h2 {
+                font-size: 22px;
+            }
+
+            nav ul li {
+                margin-right: 20px;
+            }
+
+            nav ul li a {
+                font-size: 18px;
+            }
+
+            button {
+                padding: 12px 25px;
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>銀髮旅行CRM系統</h1>
+        <nav>
+            <ul>
+                <li><a href="#customer-data">客戶資料管理</a></li>
+                <li><a href="#behavior-tracking">行為追蹤</a></li>
+                <li><a href="#promotions">促銷活動</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 客戶資料管理區域 -->
+        <section id="customer-data">
+            <h2>客戶資料管理</h2>
+            <form id="customer-form">
+                <label for="name">姓名：</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="age">年齡：</label>
+                <input type="number" id="age" name="age" required><br><br>
+
+                <label for="email">電子郵件：</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">聯絡電話：</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <label for="health">健康狀況：</label>
+                <textarea id="health" name="health" rows="4" cols="50"></textarea><br><br>
+
+                <label for="preferences">旅行偏好：</label>
+                <textarea id="preferences" name="preferences" rows="4" cols="50"></textarea><br><br>
+
+                <button type="submit">提交資料</button>
+            </form>
+        </section>
+
+        <!-- 行為追蹤區域 -->
+        <section id="behavior-tracking">
+            <h2>客戶行為追蹤</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>客戶名稱</th>
+                        <th>瀏覽歷史</th>
+                        <th>購買紀錄</th>
+                        <th>最後登入</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>鄭丰慈</td>
+                        <td>旅行行程1, 旅行行程2</td>
+                        <td>課程A, 課程B</td>
+                        <td>2024-12-25</td>
+                    </tr>
+                    <!-- 更多行為數據列 -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 促銷活動區域 -->
+        <section id="promotions">
+            <h2>促銷活動</h2>
+            <form id="promotion-form">
+                <label for="promotion-name">促銷活動名稱：</label>
+                <input type="text" id="promotion-name" name="promotion-name" required><br><br>
+
+                <label for="discount">折扣：</label>
+                <input type="text" id="discount" name="discount" required><br><br>
+
+                <label for="start-date">開始日期：</label>
+                <input type="date" id="start-date" name="start-date" required><br><br>
+
+                <label for="end-date">結束日期：</label>
+                <input type="date" id="end-date" name="end-date" required><br><br>
+
+                <button type="submit">創建促銷活動</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 銀髮旅行CRM系統. 版權所有。</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
