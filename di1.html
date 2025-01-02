@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東益機車坐墊名單收集頁</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center; /* 使所有文字置中 */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center; /* 使所有內容置中 */
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #f39200; /* 橙色強調品牌特色 */
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-top: 15px;
+        }
+        .cta-button {
+            background-color: #f39200; /* 使用品牌顏色 */
+            color: white;
+            padding: 12px 25px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #ff7f00;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 1rem;
+        }
+        select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+        .marketing-bullet {
+            margin-left: 0;
+            padding: 0;
+            list-style-type: none;
+            margin-top: 20px;
+        }
+        .marketing-bullet li {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+            color: #555;
+        }
+        .form-container {
+            margin-top: 30px;
+        }
+        .form-container form {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .form-group input, .form-group select, .form-group textarea {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>80% 的車主忽略了！錯誤坐墊曲線讓腰椎壓力增 2 倍，3 天內升級健康坐墊改善坐姿！</h1>
+    <h2>立即填寫資訊，免費領取專屬護理指南 + 10% 換新折扣！從坐墊開始守護您的健康，提升舒適度與安全性。</h2>
+
+    <ul class="marketing-bullet">
+        <li>💡 <strong>健康坐墊新選擇</strong>：專業設計減輕腰椎壓力，久坐不再酸痛！</li>
+        <li>🛠️ <strong>護理秘訣公開</strong>：如何避免長年日曬、雨淋對坐墊與身體的損害。</li>
+        <li>🔥 <strong>限量優惠</strong>：首 100 名享健康升級折扣，錯過不再！</li>
+        <li>🚀 <strong>輕鬆換新服務</strong>：3 步完成預約，坐墊更新與健康升級一步到位。</li>
+        <li>⭐ <strong>品質承諾</strong>：10+ 年經驗，守護每一位車主的健康與舒適。</li>
+    </ul>
+
+    <h3>合作品牌信任加強</h3>
+    <p>🚗 <strong>合作品牌：Yamaha、SYM</strong></p>
+    <p>🔗 <strong>10+ 年合作夥伴關係</strong>：我們與知名品牌攜手，為您提供健康與安心的坐墊選擇！</p>
+
+    <div class="form-container">
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">姓名</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">電子郵件</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">電話號碼</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="appointment-date">預約時間選擇</label>
+                <select id="appointment-date" name="appointment-date" required>
+                    <option value="monday">禮拜一</option>
+                    <option value="tuesday">禮拜二</option>
+                    <option value="wednesday">禮拜三</option>
+                    <option value="thursday">禮拜四</option>
+                    <option value="friday">禮拜五</option>
+                </select>
+                <select id="appointment-time" name="appointment-time" required>
+                    <option value="09:00-09:30">09:00-09:30</option>
+                    <option value="09:30-10:00">09:30-10:00</option>
+                    <option value="10:00-10:30">10:00-10:30</option>
+                    <option value="10:30-11:00">10:30-11:00</option>
+                    <option value="11:00-11:30">11:00-11:30</option>
+                    <option value="11:30-12:00">11:30-12:00</option>
+                    <option value="12:00-12:30">12:00-12:30</option>
+                    <option value="12:30-13:00">12:30-13:00</option>
+                    <option value="13:00-13:30">13:00-13:30</option>
+                    <option value="13:30-14:00">13:30-14:00</option>
+                    <option value="14:00-14:30">14:00-14:30</option>
+                    <option value="14:30-15:00">14:30-15:00</option>
+                    <option value="15:00-15:30">15:00-15:30</option>
+                    <option value="15:30-16:00">15:30-16:00</option>
+                    <option value="16:00-16:30">16:00-16:30</option>
+                    <option value="16:30-17:00">16:30-17:00</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="seat-condition">機車坐墊問題</label>
+                <textarea id="seat-condition" name="seat-condition" rows="4" required placeholder="請描述您的坐墊使用情況，例如是否感到不舒適、裂痕或磨損等。"></textarea>
+            </div>
+
+            <button type="submit" class="cta-button">立即領取護理指南與折扣！</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
